@@ -1,3 +1,16 @@
+# To run
+1. Download
+1. cd into the 'api' directory
+1. execute: `yarn install`
+1. ensure that mongodb service is started 
+    * on Linux: 
+        1. verify by executing `ps -aux | grep mong`
+        1. start the server by executing `sudo service mongod start`
+    * on iOS:
+        1. Check if its running with `brew services list`
+        1. ensure the server is running by executing `brew services start mongodb`
+1. execute: `yarn dev`
+
 # Background
 The task was to work in pairs to make a node api server to serve up weather rainfall data. 
 
