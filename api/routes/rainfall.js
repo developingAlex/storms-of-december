@@ -15,4 +15,12 @@ router.post('/rainfall', (req, res) => {
     })
 })
 
+// get
+router.get('/rainfall', (req, res) => {
+  Rainfall.find()
+    .then((rain) => {
+      res.json(rain)
+    })
+})
+
 module.exports = router

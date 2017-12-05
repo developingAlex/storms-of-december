@@ -13,8 +13,11 @@ Content-Type: application/json
 {
   "date": "7 Dec 2017",
   "amount": 9,
-  "location": "5a24d668ef7ce0a8dbd08591"
+  "location": "5a2611ef30ca0cc5d37880e3"
 }
 
 ###
 GET http://localhost:7000/locations
+
+###
+GET http://localhost:7000/rainfall
