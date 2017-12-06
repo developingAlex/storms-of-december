@@ -8,7 +8,7 @@
         1. start the server by executing `sudo service mongod start`
     * on iOS:
         1. Check if its running with `brew services list`
-        1. ensure the server is running by executing `brew services start mongodb`
+        1. ensure the server is running by executing `brew services start mongod`
 1. execute: `yarn dev`
 
 # Background
